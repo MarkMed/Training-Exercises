@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+	<style>
+		html{
+			width: 99%;
+			height: 98%;
+		}
+		body{
+			width: 100%;
+			height: 99%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			background: rgba(11, 34, 67, 1);
+		}
+		div{
+			width: 50%;
+		}
+		#div1{
+			height: 250px;
+			font-size: 20px;
+		}
+		#div2{
+			height: 50px;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+		}
+		form{
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: space-around;
+		}
+		label{
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			width: 100%;
+			height: 50px;
+			color: #777367;
+		}
+		input {
+			display: block;
+			text-align: center;
+			width: 100%;
+			height: 50px;
+			background: none;
+			border: none;
+			border-bottom: 3px solid #605D54;
+			font-size: 20px;
+			color: #E5E4DA;
+			animation: sombreado 2s infinite;
+			transition: 1s;
+		}
+		input:focus{
+			outline: none;
+			background: rgba(239, 238, 218, 0.6);
+			border-bottom: 3px groove rgba(255, 185, 11, 1);
+			color: rgba(46, 43, 34, 1);
+			animation: none;
+		}
+		@keyframes sombrea2{
+			0%{box-shadow: 0px 0px 4px #0EFFF9;}
+			5%{box-shadow: 0px 0px 5px #0EFFF9;}
+			10%{box-shadow: 0px 0px 6px #0EFFF9;}
+			15%{box-shadow: 0px 0px 7px #0EFFF9;}
+			20%{box-shadow: 0px 0px 8px #0EFFF9;}
+			25%{box-shadow: 0px 0px 9px #0EFFF9;}
+			30%{box-shadow: 0px 0px 10px #0EFFF9;}
+			35%{box-shadow: 0px 0px 11px #0EFFF9;}
+			40%{box-shadow: 0px 0px 12px #0EFFF9;}
+			45%{box-shadow: 0px 0px 13px #0EFFF9;}
+			50%{box-shadow: 0px 0px 14px #0EFFF9;}
+			55%{box-shadow: 0px 0px 13px #0EFFF9;}
+			60%{box-shadow: 0px 0px 12px #0EFFF9;}
+			65%{box-shadow: 0px 0px 11px #0EFFF9;}
+			70%{box-shadow: 0px 0px 10px #0EFFF9;}
+			75%{box-shadow: 0px 0px 9px #0EFFF9;}
+			80%{box-shadow: 0px 0px 8px #0EFFF9;}
+			85%{box-shadow: 0px 0px 7px #0EFFF9;}
+			90%{box-shadow: 0px 0px 6px #0EFFF9;}
+			95%{box-shadow: 0px 0px 5px #0EFFF9;}
+			100%{box-shadow: 0px 0px 4px #0EFFF9;}
+		}
+		input:hover{
+			animation: sombrea2 2s infinite;
+		}
+		button{
+			width: 120px;
+			height: 60px;
+			background: #605D54;
+			border: 4px groove #FFB90B;
+			box-shadow: 0px 10px 5px #363D34;
+			color: #E5E4DA;
+			font-size: 30px;
+			font-family: Candara;
+			transition: 1s;
+		}
+		@keyframes sombreado{
+			0%{text-shadow: 0px 0px 0px #0EFFF9;}
+			5%{text-shadow: 0px 0px 1px #0EFFF9;}
+			10%{text-shadow: 0px 0px 2px #0EFFF9;}
+			15%{text-shadow: 0px 0px 3px #0EFFF9;}
+			20%{text-shadow: 0px 0px 4px #0EFFF9;}
+			25%{text-shadow: 0px 0px 5px #0EFFF9;}
+			30%{text-shadow: 0px 0px 6px #0EFFF9;}
+			35%{text-shadow: 0px 0px 7px #0EFFF9;}
+			40%{text-shadow: 0px 0px 8px #0EFFF9;}
+			45%{text-shadow: 0px 0px 9px #0EFFF9;}
+			50%{text-shadow: 0px 0px 10px #0EFFF9;}
+			55%{text-shadow: 0px 0px 9px #0EFFF9;}
+			60%{text-shadow: 0px 0px 8px #0EFFF9;}
+			65%{text-shadow: 0px 0px 7px #0EFFF9;}
+			70%{text-shadow: 0px 0px 6px #0EFFF9;}
+			75%{text-shadow: 0px 0px 5px #0EFFF9;}
+			80%{text-shadow: 0px 0px 4px #0EFFF9;}
+			85%{text-shadow: 0px 0px 3px #0EFFF9;}
+			90%{text-shadow: 0px 0px 2px #0EFFF9;}
+			95%{text-shadow: 0px 0px 1px #0EFFF9;}
+			100%{text-shadow: 0px 0px 0px #0EFFF9;}
+		}
+		button:hover{
+			animation: sombreado 2s infinite;
+		}
+		button:active{
+			transform: translateY(10px);
+			box-shadow: none;
+			transition: 0.01s;
+			box-shadow: 0px 0px 5px #0EFFF9;
+		}
+		p{
+			width: 50%;
+			height: 250px;
+			background: #605D54;
+			color: #E5E4DA;
+			font-size: 20px;
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			justify-content: space-around;
+			overflow-wrap: break-word;
+		}
+	</style>
+		<div id="div1">
+			<form id="formul">
+				<label>Campo 1</label>
+				<input id="campo1" name="campo1"/> 
+				<label>Campo 2</label>
+				<input id="campo2" name="campo2"/>
+			</form>
+		</div>
+		<div id="div2">
+			<button onclick="adding();">Add</button>
+			<button onclick="vacio();">Empty</button>
+			<button onclick="ducha();">Show</button>
+		</div>
+		<p id="parrafo"></p>
+		<section name="wea"></section>
+		<section name="wea"></section>
+		<section></section>
+		<section></section>
+		<script src="js/script.js"/>
+	</body>
+</html>

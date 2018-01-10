@@ -1,0 +1,45 @@
+.table-alumnos {
+    border-collapse: collapse;
+    text-align: left;
+    width: 50%;
+ 	font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #36752D;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+} 
+.table-alumnos td,
+.table-alumnos th {
+    padding: 3px 10px;
+}
+.table-alumnos thead th {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36752D), color-stop(1, #275420));
+    background: -moz-linear-gradient( center top, #36752D 5%, #275420 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
+    background-color: #36752D;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #36752D;
+}
+.table-alumnos thead th:first-child {
+    border: none;
+}
+.table-alumnos tbody td {
+    color: #275420;
+    border-left: 1px solid #C6FFC2;
+    font-size: 12px;
+    font-weight: normal;
+}
+.table-alumnos tbody tr:nth-child(2n) td{
+    background: #DFFFDE;
+    color: #275420;
+}
+.table-alumnos tbody td:first-child {
+    border-left: none;
+}
+.table-alumnos tbody tr:last-child td {
+    border-bottom: none;
+}

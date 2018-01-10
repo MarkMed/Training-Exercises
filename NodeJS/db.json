@@ -1,0 +1,11 @@
+{
+	"inmuebles": [
+			{"id": "id1", "nombre": "Casa en Pta del Este", "direction": "Calle 1819", "dorm_amount": "2", "tipo": "vende", "precio": "30000", "precio_tipo": "USD", "email": "email@hotmail.com", "aviable_day": "31", "aviable_month": "2", "aviable_year": "2019", "cont_duration": "2"},
+			{"id": "id2", "nombre": "Casa en Pta del Este2", "direction": "Calle 18192", "dorm_amount": "22", "tipo": "vende", "precio": "30000", "precio_tipo": "USD", "email": "email@hotmail.com", "aviable_day": "31", "aviable_month": "2", "aviable_year": "2019", "cont_duration": "2"},
+			{"id": "id3", "nombre": "Casa en Pta del Este3", "direction": "Calle 18193", "dorm_amount": "23", "tipo": "vende", "precio": "30000", "precio_tipo": "USD", "email": "email@hotmail.com", "aviable_day": "31", "aviable_month": "2", "aviable_year": "2019", "cont_duration": "2"},
+			{"id": 4, "nombre": "Casa en Pta del Este2", "direction": "Calle 18192", "dorm_amount": "22", "tipo": "vende", "precio": "30000", "precio_tipo": "USD", "email": "email@hotmail.com", "aviable_day": "31", "aviable_month": "2", "aviable_year": "2019", "cont_duration": "2"},
+			{"id": 5, "nombre": "Casa en Pta del Este2", "direction": "Calle 18192", "dorm_amount": "22", "tipo": "vende", "precio": "30000", "precio_tipo": "USD", "email": "email@hotmail.com", "aviable_day": "31", "aviable_month": "2", "aviable_year": "2019", "cont_duration": "2"},
+			{"id": 6, "nombre": "Casa en Pta del Este2", "direction": "Calle 18192", "dorm_amount": "22", "tipo": "vende", "precio": "30000", "precio_tipo": "USD", "email": "email@hotmail.com", "aviable_day": "31", "aviable_month": "2", "aviable_year": "2019", "cont_duration": "2"},
+			{"id": 7, "nombre": "Casa en Pta del Este2", "direction": "Calle 18192", "dorm_amount": "22", "tipo": "vende", "precio": "30000", "precio_tipo": "USD", "email": "email@hotmail.com", "aviable_day": "31", "aviable_month": "2", "aviable_year": "2019", "cont_duration": "2"}
+	]
+}

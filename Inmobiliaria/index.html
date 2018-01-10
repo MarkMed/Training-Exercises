@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inmobiliarias Wea</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<header class="encabezado">
+		<h1>Inmobiliarias wea</h1>
+		<div>
+			<ul class="lista">
+				<li><a id="create" onclick="creating();">Crear</a></li>
+				<li><a id="edit" onclick="shower();">Mostrar</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<div id="showerer" class="mostrando">
+			<section id="filtros" class="filtros">
+				<label for="cant_dorm"> Cantidad de dormitorios
+				<select id="cant_dorm">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select></label>
+			
+				<label for="alquiler">Alquiler<input type="checkbox" id="alquiler"></label>
+
+				<label for="venta">Venta<input type="checkbox" id="venta"></label>
+				
+				<label for="precio_a"> Precio de alquiler
+				<select id="precio_a">
+					<option value="1">de 1 a 300 USD</option>
+					<option value="2">de 301 a 600 USD</option>
+					<option value="3">de más de 600 USD</option>
+				</select></label>
+				<label for="precio_v"> Precio de venta
+				<select id="precio_v">
+					<option value="1">de 1 a 5000 USD</option>
+					<option value="2">de 5001 a 10.000 USD</option>
+					<option value="3">de más de 10.000 USD</option>
+				</select></label> 
+				<label for="durac_conter"> Duración de contrato
+				<select id="durac_conter">
+					<option value="1">De 1 año</option>
+					<option value="2">De 2 años</option>
+					<option value="3">De 3 años</option>
+					<option value="4">De 4 años</option>
+					<option value="5">De 5 años</option>
+				</select></label>
+			</section>
+			<div id="interno_showerer" class="interno_showerer">
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+				<li>8</li>
+			</ul>
+			</div>
+		</div>
+		<div id="agregar" class="no_mostrando">
+			<div id="form">
+				<label for="nombre">Nombre: <input type="text" id="nombre" placeholder="Nombre del inmueble"></label> <br>
+				<label for="direc">Dirección: 
+				<input type="text" id="direc" placeholder="Dirección del lugar">
+				</label>
+				<label for="cant_dorm"> Cantidad de dormitorios
+				<select id="cant_dorm">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select></label>
+				<label for="alquiler_form">Alquiler <input type="radio" id="alquiler_form" name="venta_alquiler" checked >
+				</label>
+				<label for="venta_form">Venta <input type="radio" id="venta_form" name="venta_alquiler">
+				</label>
+				<label for="precio_form">Precio del inmueble<input type="number" id="precio_form">
+				</label>
+				<label for="mail_form">E-mail de contacto: <input type="mail" id="mail_form"></label>
+				<label for="dia_form">Día disponible.<input type="number" id="dia_form" step="1" min="1" max="31">
+				</label>
+				<label for="mes_form">Mes disponible.<input type="number" id="mes_form" step="1" min="1" max="12"></label>
+				<label for="ano_form">Año disponible.<input type="number" id="ano_form" step="1" min="2017" max="2050"></label>
+				<label for="durac_conter"> Duración de contrato
+				<select id="durac_conter">
+					<option value="1">De 1 año</option>
+					<option value="2">De 2 años</option>
+					<option value="3">De 3 años</option>
+					<option value="4">De 4 años</option>
+					<option value="5">De 5 años</option>
+				</select></label>
+				<button id="crear" value="crear formulario"> Crear formulario 
+				</button>
+			</div>
+		</div>
+		<div id="editar" class="no_mostrar"></div>
+	</main>
+</body>
+</html>

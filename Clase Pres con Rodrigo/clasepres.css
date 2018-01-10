@@ -1,0 +1,33 @@
+body{
+	background: #C3C3C3;
+}
+div{
+	background: #E4E3E3;
+	border: 5px #FBCF00 solid;
+	position: absolute;
+	padding: 10px;
+	margin: 8% 31%;
+	border-radius: 12px;
+}
+table{
+	border-collapse: collapse;
+	text-align: center;
+	background: #979797;
+	color: #FFFFFF;
+}
+tr, th, td{
+	padding: 25px;
+	border: 3px #002AFD solid;
+	transition: 1s;
+	font-size: 17px;
+	font-family: Candara;
+}
+th{
+	font-size: 24px;
+	font-family: Georgia;
+}
+th:hover, td:hover{
+	color: #ffce00;
+	background-color: #0094ff;
+	text-shadow: 0px 0px 5px #FFFFFF;
+}

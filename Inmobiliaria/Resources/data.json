@@ -1,0 +1,9 @@
+{
+	"inmuebles": [
+		{"id": 1,"nombre":"Casa en Pta del Este","direction":"Calle 1819","dorm_amount":"2","tipo":"vende","precio":"30000","precio_tipo":"USD","email":"email@hotmail.com","aviable_day":"31","aviable_month":"2","aviable_year":"2019","cont_duration":"2"},
+		{"id": 2,"nombre":"Casa en Pta del Este","direction":"Calle 1829","dorm_amount":"3","tipo":"alquila","precio":"15000","precio_tipo":"$UY","email":"email@hotmail.com","aviable_day":"4","aviable_month":"6","aviable_year":"2019","cont_duration":"3"},
+		{"id": 3,"nombre":"Casa en Pta del Este","direction":"Calle 1719","dorm_amount":"4","tipo":"vende","precio":"30000","precio_tipo":"$AR","email":"email@hotmail.com","aviable_day":"12","aviable_month":"4","aviable_year":"2019","cont_duration":"4"},
+		{"id": 4,"nombre":"Casa en Pta del Este","direction":"Calle 1419","dorm_amount":"2","tipo":"alquila","precio":"30000","precio_tipo":"USD","email":"email@hotmail.com","aviable_day":"25","aviable_month":"7","aviable_year":"2019","cont_duration":"5"},
+		{"id": 5,"nombre":"Casa en Pta del Este","direction":"Calle 1819","dorm_amount":"2","tipo":"vende","precio":"30000","precio_tipo":"USD","email":"email@hotmail.com","aviable_day":"6","aviable_month":"9","aviable_year":"2019","cont_duration":"3"}
+	]
+}

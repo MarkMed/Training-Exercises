@@ -1,0 +1,30 @@
+<main>
+			<!--Explicar cada atributo-->
+			<form action="" method="" enctype="" id="alumno-form">
+				<fieldset>
+				    <legend>Alumno</legend>
+				    <label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre"><br>
+				   	<label for="email">Email:</label> <input type="email" id="email" name="email"><br>
+					<label for="fnac">Fecha nacimiento:</label>
+					<input type="date" id="fnac" name="fnac">
+					<label for="ciudad">Ciudad</label>
+					<select id="ciudad" name="ciudad">
+						<option>Punta del Este</option>
+						<option>Montevideo</option>
+						<option>La Paz</option>
+						<option>Las Piedras</option>
+					</select>
+			  	</fieldset>
+			<input type="button" value="Enviar" onclick="agregarAlumno();">
+			</form>
+			<table id="table-alumnos" class="table-alumnos center">
+				<thead>
+					<th>Nombre</th>
+					<th>Edad</th>
+					<th>CI</th>
+				</thead>
+				<tbody id="body-content">
+
+				</tbody>	
+			</table>
+		</main>

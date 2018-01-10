@@ -1,0 +1,57 @@
+<!DOCTYPE html> <!-- especificamos el uso de html5 como version de html -->
+<html>
+	<head>
+		<!-- 
+			Informacion sobre la pagina
+			agregar archivos externos 
+			especificar estilos
+		 -->
+		<!-- javascript bloquear la carga-->
+
+		<title>App 1</title>	
+		<!-- meta tags -->
+
+		<meta charset="UTF-8">
+  		<meta name="description" content="Primer sitio practico jovenes a programar">
+  		<meta name="keywords" content="HTML,CSS,XML,JavaScript, tutorial, Jovenes a Programar">
+  		<meta name="author" content="Jovenes a Programar">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<link rel="stylesheet" type="text/css" href="css/sitio.css"> 
+		<link rel="stylesheet" type="text/css" href="css/tabla.css"> 
+		<style>
+			.boxmodel{}
+			.box-model-c
+		</style>
+	</head>
+	<body>
+		<!-- elementos que se van a renderizar en el navegador -->
+		<header >
+			<aside>
+				<picture>
+					<img class="logo" src="images/logo.png">
+				</picture>
+			</aside>
+			<nav class="center"><!-- indica que el contenido va a hacer navegable -->
+				<a title="index" href="index.html">Inicio</a>
+				<a title="lista" href="lista.html">Lista</a>
+				<a title="form" href="form.html">Form</a>	 	 
+				<a title="tabla" href="tablas.html">Tablas</a>	 	 
+			</nav> 
+		</header>
+		<main>
+			<section></section>
+			<aside></aside>
+		</main>
+		<footer>	
+			 pie de pagina
+		</footer> 
+
+		
+		<!-- carga archivo js externo -->
+	<script src="scripts/api.js" type="text/javascript"></script>
+	<script src="scripts/tablas.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		imprimirAlumnos();
+	</script>
+	</body>
+</html>

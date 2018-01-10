@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio DOM Formoulario</title>
+	<link rel="stylesheet" type="text/css" href="DOM Formulario.css">
+</head>
+<body>
+	<main>
+		<!--Explicar cada atributo-->
+		<form id="alumno_form">
+		    <div id="div1">
+		    	<label for="nombre">Nombre:</label>
+		    	<label for="email">Email:</label>
+		    	<label for="fnac">Fecha nacimiento:</label>
+		    	<label for="ciudad">Ciudad:</label>
+		    </div>
+		    <div id="div2">
+			    <input class="input_deco" type="text" id="nombre" name="nombre">
+			   	<input class="input_deco" type="email" id="email" name="email">
+				<input class="input_deco" type="date" id="fnac" name="fnac">
+				<select class="input_deco" id="ciudad" name="ciudad">
+					<option value="(No Selected)"></option>
+					<option value="Punta del Este">Punta del Este</option>
+					<option value="Montevideo">Montevideo</option>
+					<option value="La Paz">La Paz</option>
+					<option value="Las Piedras">Las Piedras</option>
+				</select>
+		    </div>
+		    <input id="button_deco" type="button" value="Enviar" onclick="agregarAlumno();">
+		</form>
+		<table id="tabla">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>e-Mail</th>
+					<th>Edad</th>
+					<th>Cuidad</th>
+				</tr>
+			</thead>
+			<tbody id="cuerpo">
+				<tr>
+					<td>Marcos</td>
+					<td>marcmedi1@hotmail.com</td>
+					<td>18</td>
+					<td>Las Piedras</td>
+				</tr>
+				<tr>
+					<td>Persona2</td>
+					<td>Persona2@hotmail.com</td>
+					<td>n</td>
+					<td>Montevideo</td>
+				</tr>
+				<tr>
+					<td>Persona3</td>
+					<td>Persona3@hotmail.com</td>
+					<td>n</td>
+					<td>Montevideo</td>
+				</tr>
+				<tr>
+					<td>Persona4</td>
+					<td>Persona4@hotmail.com</td>
+					<td>n</td>
+					<td>La Paz</td>
+				</tr>
+				<tr>
+					<td>Persona5</td>
+					<td>Persona5@hotmail.com</td>
+					<td>n</td>
+					<td>Punta del este</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
+	<script src="DOM Formulario.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,657 @@
+/*One product page to demostrate how would be each product page*/
+@media (max-width: 499px){
+	main{
+		margin: 30px auto 20px;
+		height: 650px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	/*Product View Start*/
+	section#product_view{
+		width: 100%;
+		height: 78%;
+		overflow: hidden;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: column;
+	}
+	/*Product Viewer Start*/
+	div#viewer{
+		width: 100%;
+		height: 50%;
+		display: flex;
+		flex-direction: column;
+	}
+	div#bigpic{
+		width: 296px;
+		height: 85%;
+		overflow: hidden;
+		border-right: 2px solid #FFB90B;
+		border-top: 2px solid #FFB90B;
+		border-left: 2px solid #FFB90B;
+		border-radius: 0% 0% 5% 5%;
+		background: rgba(56, 53, 44, 0.6);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	div#bigpic img{
+		width: 90%;
+		height: 90%;
+	}
+	/*Work in Progress*/
+	div#otherspic{
+		width: 296px;
+		height: 15%;
+		overflow: hidden;
+		border: 2px solid #FFB90B;
+		background: rgba(56, 53, 44, 0.6);
+	}
+	div#otherspic ul{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+		flex-direction: row;	
+	}
+	div#otherspic ul li{
+		width: 20%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	div#otherspic ul li img{
+		width: 50%;
+		height: 50%;
+		border-radius: 50%;
+		transition: 1s;
+	}
+	div#otherspic ul li img:hover{
+		width: 100%;
+		height: 100%;
+		border-radius: 0%;
+	}
+	/*Product Viewer End*/
+	div#description{
+		width: 296px;
+		height: 40%;
+		border: 2px solid #FFB90B;
+		background: rgba(239, 238, 218, 0.6);
+		border-radius: 15px 0% 0% 15px;
+	}
+	div#description div{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+	div#description h3, div#description p, div#description ul{
+		width: 90%;
+		margin: 20px 10px;
+		text-align: center;
+	}
+	/*Product View End*/
+	/*Other offers Start*/
+	section#anothers_offers{
+		width: 100%;
+		height: 20%;
+		border-top: 2px solid #555;
+		border-bottom: 2px solid #555;
+		overflow: hidden;
+		overflow-x: scroll;
+	}
+	section#anothers_offers ul{
+		width: 290%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: row;
+	}
+	section#anothers_offers ul li{
+		width: 40%;
+		height: 90%;
+		background-image: url("../Resources/Img/Desk.png");
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow: hidden;
+		margin: auto 20px;
+	}
+	section#anothers_offers ul li a{
+		width: 100%;
+		height: 100%;
+	}
+	section#anothers_offers ul li a div{
+		width: 100%;
+		height: 0%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+		color: rgba(11, 84, 187, 1);
+		background: linear-gradient(rgba(0, 0, 0, 0), rgba(46, 43, 34, 1));
+		transform: translateY(250px);
+		overflow: hidden;
+		opacity: 0;
+		transition: 1s;
+	}
+	section#anothers_offers ul li a div h4{
+		width: 100%;
+		height: 25%;
+	}
+	section#anothers_offers ul li a div p{
+		width: 100%;
+		height: 40%;
+	}
+	section#anothers_offers ul li:hover a div{
+		opacity: 1;
+		height: 100%;
+		transform: translateY(0px);
+		text-shadow: 1px 1px 1px rgba(14, 255, 249, 1);
+	}
+	/*Other offers End*/
+}
+
+@media (min-width: 500px) and (max-width: 799px){
+	main{
+		margin: 20px auto;
+		height: 650px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	/*Product View Start*/
+	section#product_view{
+		width: 100%;
+		height: 82%;
+		overflow: hidden;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: column;
+	}
+	/*Product Viewer Start*/
+	div#viewer{
+		width: 100%;
+		height: 60%;
+		display: flex;
+		flex-direction: column;
+	}
+	div#bigpic{
+		width: 496px;
+		height: 85%;
+		overflow: hidden;
+		border-right: 2px solid #FFB90B;
+		border-top: 2px solid #FFB90B;
+		border-left: 2px solid #FFB90B;
+		border-radius: 0% 0% 5% 5%;
+		background: rgba(56, 53, 44, 0.6);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	div#bigpic img{
+		width: 90%;
+		height: 90%;
+	}
+	/*Work in Progress*/
+	/*¡Hacer un Tab, cada lí con un radiobutton para
+	cuando clickee se cambie la img grande!*/
+	div#otherspic{
+		width: 496px;
+		height: 15%;
+		overflow: hidden;
+		border: 2px solid #FFB90B;
+		background: rgba(56, 53, 44, 0.6);
+	}
+	div#otherspic ul{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+		flex-direction: row;	
+	}
+	div#otherspic ul li{
+		width: 20%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	div#otherspic ul li img{
+		width: 50%;
+		height: 50%;
+		border-radius: 50%;
+		transition: 1s;
+	}
+	div#otherspic ul li img:hover{
+		width: 100%;
+		height: 100%;
+		border-radius: 0%;
+	}
+	/*Product Viewer End*/
+	div#description{
+		width: 496px;
+		height: 40%;
+		border: 2px solid #FFB90B;
+		background: rgba(239, 238, 218, 0.6);
+		border-radius: 15px 0% 0% 15px;
+		margin-top: 10px;
+	}
+	div#description div{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+	div#description h3, div#description p, div#description ul{
+		width: 90%;
+		margin: 20px 10px;
+		text-align: center;
+	}
+	/*Product View End*/
+	/*Other offers Start*/
+	section#anothers_offers{
+		width: 100%;
+		height: 15%;
+		border-top: 2px solid #555;
+		border-bottom: 2px solid #555;
+		overflow: hidden;
+		overflow-x: scroll;
+	}
+	section#anothers_offers ul{
+		width: 160%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: row;
+	}
+	section#anothers_offers ul li{
+		width: 20%;
+		height: 90%;
+		background-image: url("../Resources/Img/Desk.png");
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+	section#anothers_offers ul li a{
+		width: 100%;
+		height: 100%;
+	}
+	section#anothers_offers ul li a div{
+		width: 100%;
+		height: 0%;
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+		text-align: center;
+		color: rgba(11, 84, 187, 1);
+		background: linear-gradient(rgba(0, 0, 0, 0), rgba(46, 43, 34, 1));
+		transform: translateY(250px);
+		overflow: hidden;
+		opacity: 0;
+		transition: 1s;
+	}
+	section#anothers_offers ul li a div h4{
+		width: 100%;
+		height: 30%;
+	}
+	section#anothers_offers ul li a div p{
+		width: 100%;
+		height: 30%;
+	}
+	section#anothers_offers ul li:hover a div{
+		opacity: 1;
+		height: 100%;
+		transform: translateY(0px);
+		text-shadow: 1px 1px 1px rgba(14, 255, 249, 1);
+	}
+	/*Other offers End*/
+}
+
+@media (min-width: 800px) and (max-width: 1199px){
+	main{
+		margin: 20px auto;
+		height: 650px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	/*Product View Start*/
+	section#product_view{
+		width: 100%;
+		height: 60%;
+		overflow: hidden;
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+		flex-direction: row;
+		margin-bottom: 50px;
+	}
+	/*Product Viewer Start*/
+	div#viewer{
+		width: 61%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	div#bigpic{
+		width: 100%;
+		height: 85%;
+		overflow: hidden;
+		border-right: 2px solid #FFB90B;
+		border-top: 2px solid #FFB90B;
+		border-left: 2px solid #FFB90B;
+		border-radius: 0% 0% 5% 5%;
+		background: rgba(56, 53, 44, 0.6);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	div#bigpic img{
+		width: 90%;
+		height: 90%;
+	}
+	/*Work in Progress*/
+	/*¡Hacer un Tab, cada lí con un radiobutton para
+	cuando clickee se cambie la img grande!*/
+	div#otherspic{
+		width: 100%;
+		height: 15%;
+		overflow: hidden;
+		border: 2px solid #FFB90B;
+		background: rgba(56, 53, 44, 0.6);
+	}
+	div#otherspic ul{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+		flex-direction: row;	
+	}
+	div#otherspic ul li{
+		width: 20%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	div#otherspic ul li img{
+		width: 50%;
+		height: 50%;
+		border-radius: 50%;
+		transition: 1s;
+	}
+	div#otherspic ul li img:hover{
+		width: 100%;
+		height: 100%;
+		border-radius: 0%;
+	}
+	/*Product Viewer End*/
+	div#description{
+		width: 35%;
+		height: 99%;
+		border: 2px solid #FFB90B;
+		background: rgba(239, 238, 218, 0.6);
+		border-radius: 0% 0% 5% 5%;
+	}
+	div#description div{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+	div#description p{
+		width: 90%;
+	}
+	/*Product View End*/
+	/*Other offers Start*/
+	section#anothers_offers{
+		width: 100%;
+		height: 20%;
+		border-top: 2px solid #555;
+		border-bottom: 2px solid #555;
+		overflow: hidden;
+		margin-bottom: 30px;
+	}
+	section#anothers_offers ul{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: row;
+	}
+	section#anothers_offers ul li{
+		width: 20%;
+		height: 80%;
+		background-image: url("../Resources/Img/Desk.png");
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+	section#anothers_offers ul li a{
+		width: 100%;
+		height: 100%;
+	}
+	section#anothers_offers ul li a div{
+		width: 100%;
+		height: 0%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+		color: rgba(11, 84, 187, 1);
+		background: linear-gradient(rgba(0, 0, 0, 0), rgba(46, 43, 34, 1));
+		transform: translateY(250px);
+		overflow: hidden;
+		opacity: 0;
+		transition: 1s;
+	}
+	section#anothers_offers ul li a div h4{
+		width: 100%;
+		height: 30%;
+	}
+	section#anothers_offers ul li a div p{
+		width: 100%;
+		height: 30%;
+	}
+	section#anothers_offers ul li:hover a div{
+		opacity: 1;
+		height: 100%;
+		transform: translateY(0px);
+		text-shadow: 1px 1px 1px rgba(14, 255, 249, 1);
+	}
+	/*Other offers End*/
+}
+
+@media (min-width: 1200px){
+	main{
+		margin: 20px auto;
+		height: 650px;
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+	}
+	/*Product View Start*/
+	section#product_view{
+		width: 100%;
+		height: 75%;
+		overflow: hidden;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		flex-direction: row;
+	}
+	/*Product Viewer Start*/
+	div#viewer{
+		width: 61%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	div#bigpic{
+		width: 100%;
+		height: 85%;
+		overflow: hidden;
+		border-right: 2px solid #FFB90B;
+		border-top: 2px solid #FFB90B;
+		border-left: 2px solid #FFB90B;
+		border-radius: 0% 0% 5% 5%;
+		background: rgba(56, 53, 44, 0.6);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	div#bigpic img{
+		width: 90%;
+		height: 90%;
+	}
+	/*Work in Progress*/
+	/*¡Hacer un "Tab", cada lí con un radiobutton para
+	cuando clickee se cambie la img grande!*/
+	div#otherspic{
+		width: 100%;
+		height: 15%;
+		overflow: hidden;
+		border: 2px solid #FFB90B;
+		background: rgba(56, 53, 44, 0.6);
+	}
+	div#otherspic ul{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+		flex-direction: row;	
+	}
+	div#otherspic ul li{
+		width: 20%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	div#otherspic ul li img{
+		width: 50%;
+		height: 50%;
+		border-radius: 50%;
+		transition: 1s;
+	}
+	div#otherspic ul li img:hover{
+		width: 100%;
+		height: 100%;
+		border-radius: 0%;
+	}
+	/*Product Viewer End*/
+	div#description{
+		width: 35%;
+		height: 80%;
+		border: 2px solid #FFB90B;
+		background: rgba(239, 238, 218, 0.6);
+		border-radius: 0% 0% 5% 5%;
+	}
+	div#description div{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-items: center;
+		flex-direction: column;
+	}
+	div#description p{
+		width: 90%;
+	}
+	/*Product View End*/
+	/*Other offers Start*/
+	section#anothers_offers{
+		width: 100%;
+		height: 20%;
+		border-top: 2px solid #555;
+		border-bottom: 2px solid #555;
+		overflow: hidden;
+	}
+	section#anothers_offers ul{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: row;
+	}
+	section#anothers_offers ul li{
+		width: 20%;
+		height: 100%;
+		background-image: url("../Resources/Img/Desk.png");
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+	section#anothers_offers ul li a{
+		width: 100%;
+		height: 100%;
+	}
+	section#anothers_offers ul li a div{
+		width: 100%;
+		height: 0%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+		color: rgba(11, 84, 187, 1);
+		background: linear-gradient(rgba(0, 0, 0, 0), rgba(46, 43, 34, 1));
+		transform: translateY(250px);
+		overflow: hidden;
+		opacity: 0;
+		transition: 1s;
+	}
+	section#anothers_offers ul li a div h4{
+		width: 100%;
+		height: 30%;
+	}
+	section#anothers_offers ul li a div p{
+		width: 100%;
+		height: 30%;
+	}
+	section#anothers_offers ul li:hover a div{
+		opacity: 1;
+		height: 100%;
+		transform: translateY(0px);
+		text-shadow: 1px 1px 1px rgba(14, 255, 249, 1);
+		font-size: 20px;
+	}
+	/*Other offers End*/
+}
+div#bigpic img{
+	transition: 1s;
+}
+.showing1{
+	opacity: 1;
+}
+.showing0{
+	opacity: 0;
+}

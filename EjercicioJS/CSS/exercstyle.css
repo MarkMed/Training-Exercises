@@ -1,0 +1,97 @@
+@keyframes sombrea2{
+	0%{box-shadow: 0px 0px 4px #0EFFF9;}
+	5%{box-shadow: 0px 0px 5px #0EFFF9;}
+	10%{box-shadow: 0px 0px 6px #0EFFF9;}
+	15%{box-shadow: 0px 0px 7px #0EFFF9;}
+	20%{box-shadow: 0px 0px 8px #0EFFF9;}
+	25%{box-shadow: 0px 0px 9px #0EFFF9;}
+	30%{box-shadow: 0px 0px 10px #0EFFF9;}
+	35%{box-shadow: 0px 0px 11px #0EFFF9;}
+	40%{box-shadow: 0px 0px 12px #0EFFF9;}
+	45%{box-shadow: 0px 0px 13px #0EFFF9;}
+	50%{box-shadow: 0px 0px 14px #0EFFF9;}
+	55%{box-shadow: 0px 0px 13px #0EFFF9;}
+	60%{box-shadow: 0px 0px 12px #0EFFF9;}
+	65%{box-shadow: 0px 0px 11px #0EFFF9;}
+	70%{box-shadow: 0px 0px 10px #0EFFF9;}
+	75%{box-shadow: 0px 0px 9px #0EFFF9;}
+	80%{box-shadow: 0px 0px 8px #0EFFF9;}
+	85%{box-shadow: 0px 0px 7px #0EFFF9;}
+	90%{box-shadow: 0px 0px 6px #0EFFF9;}
+	95%{box-shadow: 0px 0px 5px #0EFFF9;}
+	100%{box-shadow: 0px 0px 4px #0EFFF9;}
+}
+@keyframes sombreado{
+	0%{text-shadow: 0px 0px 0px #0EFFF9;}
+	5%{text-shadow: 0px 0px 1px #0EFFF9;}
+	10%{text-shadow: 0px 0px 2px #0EFFF9;}
+	15%{text-shadow: 0px 0px 3px #0EFFF9;}
+	20%{text-shadow: 0px 0px 4px #0EFFF9;}
+	25%{text-shadow: 0px 0px 5px #0EFFF9;}
+	30%{text-shadow: 0px 0px 6px #0EFFF9;}
+	35%{text-shadow: 0px 0px 7px #0EFFF9;}
+	40%{text-shadow: 0px 0px 8px #0EFFF9;}
+	45%{text-shadow: 0px 0px 9px #0EFFF9;}
+	50%{text-shadow: 0px 0px 10px #0EFFF9;}
+	55%{text-shadow: 0px 0px 9px #0EFFF9;}
+	60%{text-shadow: 0px 0px 8px #0EFFF9;}
+	65%{text-shadow: 0px 0px 7px #0EFFF9;}
+	70%{text-shadow: 0px 0px 6px #0EFFF9;}
+	75%{text-shadow: 0px 0px 5px #0EFFF9;}
+	80%{text-shadow: 0px 0px 4px #0EFFF9;}
+	85%{text-shadow: 0px 0px 3px #0EFFF9;}
+	90%{text-shadow: 0px 0px 2px #0EFFF9;}
+	95%{text-shadow: 0px 0px 1px #0EFFF9;}
+	100%{text-shadow: 0px 0px 0px #0EFFF9;}
+}
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+html{
+	width: 100%;
+	height: 100%;
+	background: rgba(11, 34, 67, 1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+body{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+/*Buttons*/
+button{
+	width: 20%;
+	height: 10%;
+	background: #605D54;
+	border: 4px groove #FFB90B;
+	box-shadow: 0px 10px 5px #363D34;
+	color: #E5E4DA;
+	font-size: 30px;
+	font-family: Candara;
+	transition: 1s;
+}
+button:hover{
+	animation: sombreado 2s infinite;
+}
+button:active{
+	transform: translateY(10px);
+	box-shadow: none;
+	transition: 0.01s;
+	box-shadow: 0px 0px 5px #0EFFF9;
+}
+/*Shower*/
+div#ducha{
+	width: 100%;
+	height: 50%;
+	background: #605D54;
+	color: #E5E4DA;
+	font-size: 20px;
+}

@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Marcos",
+		"edad": 19,
+		"Otro dato": 1998
+
+	},
+	{
+		"name": "Persona0",
+		"edad": 22
+	},
+	{
+		"name": "Persona1",
+		"edad": 23
+	},
+	{
+		"name": "Persona2",
+		"edad": 18
+	}
+]

@@ -1,0 +1,70 @@
+<!DOCTYPE html> <!-- especificamos el uso de html5 como version de html -->
+<html>
+	<head>
+		<!-- 
+			Informacion sobre la pagina
+			agregar archivos externos 
+			especificar estilos
+		 -->
+		<!-- javascript bloquear la carga-->
+
+		<title>App 1</title>	
+		<!-- meta tags -->
+
+		<meta charset="UTF-8">
+  		<meta name="description" content="Primer sitio practico jovenes a programar">
+  		<meta name="keywords" content="HTML,CSS,XML,JavaScript, tutorial, Jovenes a Programar">
+  		<meta name="author" content="Jovenes a Programar">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/sitio.css"> 
+		<style>
+			.boxSize{
+				width: 100px;
+				height: 100px;
+				padding: 2px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- elementos que se van a renderizar en el navegador -->
+		<header>
+			<aside class="boxSize">
+				<picture>
+					<img class="logo" src="images/logo.png">
+				</picture>
+			</aside>
+			<nav class="center"><!-- indica que el contenido va a hacer navegable -->
+				<a href="lista.html">Lista</a>	 
+				<a href="tablas.html">Tablas</a>
+				<a href="form.html">Form</a>	
+			</nav> 
+		</header>
+		<main>
+			contenido principal
+			<p>Parrafo principal</p>
+		</main>
+		<footer>	
+			footer
+		</footer> 
+		<!-- javascript carga con el documento renderizado-->
+		<script type="text/javascript">
+			var mainTags = Array.from(document.getElementsByTagName('main'))
+			var mainTag = mainTags[0];
+			//  mainTag.innerText permite acceder a el texto contenido en mi elemento 
+			//mainTag.innerHTML permite acceder al todo el contenido.
+			mainTag.innerHTML += '<div>Nuevo div </div>';
+			var divsHijosdeMain = Array.from(mainTag.getElementsByTagName('div'));
+
+			var newTag = document.createElement('section');
+			newTag.innerText = 'Hola me creo javascript';
+			newTag.style.width = 300;
+			newTag.style.height = 300;
+			newTag.style.border = '1px solid red';
+			//Que es el DOM?
+			// y cual es la diferencia entre DOM y HTML.
+			mainTag.prepend(newTag);
+		</script>
+		<!-- carga archivo js externo -->
+		<script src="scripts/app.js" type="text/javascript"></script> 
+	</body>
+</html>

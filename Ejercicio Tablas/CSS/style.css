@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background: rgba(11, 34, 67, 1);
+}
+table#tablet{
+	width: 45%;
+	height: 90%;
+	border-collapse: collapse;
+}
+td,th{
+	border: 2px solid #666;
+	background: rgba(0, 0, 0, 0);
+	text-align: center;
+	transition: 0.3s;
+}
+td:hover{
+	background: rgba(250, 250, 250, 0.3);
+}
+/*Section Style*/
+section{
+	width: 40%;
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+section div#form_title{
+	width: 90%;
+	height: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section div.form_section{
+	width: 45%;
+	height: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+section select{
+	width: 75%;
+	height: 45%;
+	border-radius: 20px;
+	transition: 0.7s;
+}
+section select:focus{
+	outline: none;
+	border-radius: 0px;
+}
+button#sender{
+	width: 120px;
+	height: 60px;
+	background: #605D54;
+	border: 4px groove #FFB90B;
+	color: #E5E4DA;
+	font-size: 30px;
+	font-family: Candara;
+}
+@keyframes sombreado{
+	0%{text-shadow: 0px 0px 0px #0EFFF9;}
+	5%{text-shadow: 0px 0px 1px #0EFFF9;}
+	10%{text-shadow: 0px 0px 2px #0EFFF9;}
+	15%{text-shadow: 0px 0px 3px #0EFFF9;}
+	20%{text-shadow: 0px 0px 4px #0EFFF9;}
+	25%{text-shadow: 0px 0px 5px #0EFFF9;}
+	30%{text-shadow: 0px 0px 6px #0EFFF9;}
+	35%{text-shadow: 0px 0px 7px #0EFFF9;}
+	40%{text-shadow: 0px 0px 8px #0EFFF9;}
+	45%{text-shadow: 0px 0px 9px #0EFFF9;}
+	50%{text-shadow: 0px 0px 10px #0EFFF9;}
+	55%{text-shadow: 0px 0px 9px #0EFFF9;}
+	60%{text-shadow: 0px 0px 8px #0EFFF9;}
+	65%{text-shadow: 0px 0px 7px #0EFFF9;}
+	70%{text-shadow: 0px 0px 6px #0EFFF9;}
+	75%{text-shadow: 0px 0px 5px #0EFFF9;}
+	80%{text-shadow: 0px 0px 4px #0EFFF9;}
+	85%{text-shadow: 0px 0px 3px #0EFFF9;}
+	90%{text-shadow: 0px 0px 2px #0EFFF9;}
+	95%{text-shadow: 0px 0px 1px #0EFFF9;}
+	100%{text-shadow: 0px 0px 0px #0EFFF9;}
+}
+button#sender:hover{
+	animation: sombreado 2s infinite;
+}
+button#sender:active{
+	box-shadow: 0px 0px 5px #0EFFF9;
+}
+button#sender:focus{
+	outline: none;
+}

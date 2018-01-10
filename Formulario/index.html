@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Formulario</title>
+			<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		</head>
+		<body>
+			<form>
+				<div id="div1" class="inputs_container">
+					<div class="dinput">
+						<label class="Lab_title" for="name">Nombre</label>
+						<input class="input_deco" type="text" id="name" name="name"/>
+					</div>
+					<div class="dinput">
+						<label class="Lab_title" for="sname">Apellido</label>
+						<input class="input_deco" type="text" id="sname" name="sname"/>
+					</div>
+					<div class="dinput">
+						<label class="Lab_title" for="fnac">Fecha de Nacimiento</label>
+						<input class="input_deco" type="date" id="fnac" name="fnac"/>
+					</div>
+					<div class="dinput">
+						<label class="Lab_title" for="cuidad">Ciudad</label>
+						<select class="input_deco" id="ciudad" name="ciudad">
+							<option value="(No Selected)"></option>
+							<option value="Punta del Este">Punta del Este</option>
+							<option value="Montevideo">Montevideo</option>
+							<option value="La Paz">La Paz</option>
+							<option value="Las Piedras">Las Piedras</option>
+							<option value="Canelones">Canelones</option>
+							<option value="San Jose">San José</option>
+							<option value="Barra Santa Lucia">Barra Santa Lucía</option>
+						</select>
+					</div>
+					<div class="dinput">
+						<label class="Lab_title" for="fing">Fecha de Ingreso</label>
+						<input class="input_deco" type="date" id="fing" name="fing"/>
+					</div>
+				</div>
+				<div id="div2" class="inputs_container">
+					<div class="dinput">
+						<label class="Lab_title" for="picture">Foto</label>
+						<input type="file" id="picture" name="picture"/>
+					</div>
+					<div class="dinput">
+						<label class="Lab_title" for="Fcolor">Favourite Color</label>
+						<select type="file" id="Fcolor" name="Fcolor">
+							<option value="(No Selected)"></option>
+							<option value="Azul">Azúl</option>
+							<option value="Celeste">Celeste</option>
+							<option value="Verde">Verde</option>
+							<option value="Amarillo">Amarillo</option>
+							<option value="Anaranjado">Anaranjado</option>
+							<option value="Rojo">Rojo</option>
+							<option value="Rosado">Rosado</option>
+							<option value="Violeta">Violeta</option>
+						</select>
+					</div>
+					<div class="dinput">
+						<label class="Lab_title">Lentes?</label><br/>
+						<label class="Lab_title" for="glass1">Yeap</label>
+						<input type="checkbox" id="glass1" class="chckbx" name="glass" onclick="chckbxChanging(this);"/>
+						<label class="Lab_title" for="glass0">Nope</label>
+						<input type="checkbox" id="glass0" class="chckbx" name="glass" onclick="chckbxChanging(this);"/>
+					</div>
+					<div class="dinput">
+						<label class="Lab_title" for="cuadfut">Cuadro de Fútbol</label>
+						<select class="input_deco" id="cuadfut" name="cuadfut">
+							<option value="(No Selected)">Ninguno</option>
+							<option value="Penarol">Peñarol</option>
+							<option value="Nacional">Nacional</option>
+							<option value="Defensor">Defensor</option>
+							<option value="Racing">Racing</option>
+							<option value="Liverpool">Liverpool</option>
+							<option value="Cerro">Cerro</option>
+						</select>
+					</div>
+					<div class="dinput">
+						<label class="Lab_title" for="description">Breve Descripción</label>
+						<textarea id="description" class="input_deco" name="description" maxlength="400"></textarea>
+					</div>				
+				</div>
+				<button id="sender">Enviar</button>
+			</form>
+		</body>
+		<script type="text/javascript" src="JS/script.js"></script>
+	</html>

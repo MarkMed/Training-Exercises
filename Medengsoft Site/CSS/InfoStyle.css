@@ -1,0 +1,287 @@
+@media (max-width: 499px){
+	main{
+		margin: 30px auto 20px;
+		height: 500px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	/*Options*/
+	/*Hacer como etiquetas que se despliegan.
+	Opciones comprimidas hacia la derecha del elemento
+	que cuando hovereea se despliega hasta su máx width*/
+	section#options_info{
+		width: 100%;
+		height: 30%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 50px 0% 0%;
+	}
+	section#options_info ul{
+		width: 580%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	section#options_info ul li{
+		width: 20%;
+		height: 100%;
+		background: rgba(239, 238, 228, 0.7);
+		border: 1px solid #706D64;
+		transition: 1s;
+	}
+	section#options_info ul li a{
+		width: 100%;
+		height: 100%;
+		font-size: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #0B54BB;
+	}
+	/*Viewer*/
+	section#info_viewer{
+		width: 100%;
+		height: 65%;
+		background: rgba(239, 238, 228, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 0% 0% 50px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	.div_info{
+		width: 95%;
+		display: block;
+		padding: 5% 10%;
+	}
+	section#info_viewer div.div_info h2{
+		width: 80%;
+		text-align: center;
+	}
+	section#info_viewer div.div_info p{
+		width: 80%;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 799px){
+	main{
+		margin: 30px auto 20px;
+		height: 240px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	/*Options*/
+	/*Hacer como etiquetas que se despliegan.
+	Opciones comprimidas hacia la derecha del elemento
+	que cuando hovereea se despliega hasta su máx width*/
+	section#options_info{
+		width: 33%;
+		height: 100%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 0% 0% 50px;
+	}
+	section#options_info ul{
+		width: 100%;
+		height: 120%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	section#options_info ul li{
+		width: 100%;
+		height: 20%;
+		background: rgba(239, 238, 228, 0.7);
+		border: 1px solid #706D64;
+		transition: 1s;
+	}
+	section#options_info ul li a{
+		width: 100%;
+		height: 100%;
+		font-size: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #0B54BB;
+	}
+	/*Viewer*/
+	section#info_viewer{
+		width: 63%;
+		height: 100%;
+		background: rgba(239, 238, 228, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 0% 0% 50px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	.div_info{
+		width: 95%;
+		display: block;
+		padding: 5% 10%;
+	}
+	section#info_viewer div.div_info h2{
+		width: 80%;
+		text-align: center;
+	}
+	section#info_viewer div.div_info p{
+		width: 80%;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1199px){
+	main{
+		margin: 30px auto 20px;
+		height: 400px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	/*Options*/
+	/*Hacer como etiquetas que se despliegan.
+	Opciones comprimidas hacia la derecha del elemento
+	que cuando hovereea se despliega hasta su máx width*/
+	section#options_info{
+		width: 30%;
+		height: 100%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 0% 0% 50px;
+	}
+	section#options_info ul{
+		width: 100%;
+		height: 120%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	section#options_info ul li{
+		width: 100%;
+		height: 20%;
+		background: rgba(239, 238, 228, 0.7);
+		border: 1px solid #706D64;
+		transition: 1s;
+	}
+	section#options_info ul li a{
+		width: 100%;
+		height: 100%;
+		font-size: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #0B54BB;
+	}
+	/*Viewer*/
+	section#info_viewer{
+		width: 65%;
+		height: 100%;
+		background: rgba(239, 238, 228, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 0% 0% 50px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	.div_info{
+		width: 95%;
+		display: block;
+		padding: 5% 10%;
+	}
+	section#info_viewer div.div_info h2{
+		width: 80%;
+		text-align: center;
+	}
+	section#info_viewer div.div_info p{
+		width: 80%;
+	}
+}
+
+@media (min-width: 1200px){
+	main{
+		margin: 30px auto 20px;
+		height: 500px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	/*Options*/
+	/*Hacer como etiquetas que se despliegan.
+	Opciones comprimidas hacia la derecha del elemento
+	que cuando hovereea se despliega hasta su máx width*/
+	section#options_info{
+		width: 30%;
+		height: 100%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 0% 0% 50px;
+	}
+	section#options_info ul{
+		width: 100%;
+		height: 120%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	section#options_info ul li{
+		width: 100%;
+		height: 20%;
+		background: rgba(239, 238, 228, 0.7);
+		border: 1px solid #706D64;
+		transition: 1s;
+	}
+	section#options_info ul li a{
+		width: 100%;
+		height: 100%;
+		font-size: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #0B54BB;
+	}
+	/*Viewer*/
+	section#info_viewer{
+		width: 65%;
+		height: 100%;
+		background: rgba(239, 238, 228, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 0% 0% 50px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	.div_info{
+		width: 95%;
+		display: block;
+		padding: 5% 10%;
+	}
+	section#info_viewer div.div_info h2{
+		width: 80%;
+		text-align: center;
+	}
+	section#info_viewer div.div_info p{
+		width: 80%;
+	}
+}
+.showing0{
+	display: none;
+}
+.showing1{
+	display: block;
+}
+.div_info p{
+	margin: 5%;
+}
+section#options_info ul li a{
+	cursor: pointer;
+}
+section#options_info ul li:hover{
+	text-shadow: 0px 0px 5px #0EFFF9;
+	background: rgba(96, 93, 84, 0.7);
+}

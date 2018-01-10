@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Ejercicio de listas</title>
+		<link rel="stylesheet" type="text/css" href="css/sitio.css"> 
+	</head>
+	<body>
+		<header>
+			<aside>
+				<picture>
+					<img class="logo" src="images/logo.png">
+				</picture>
+			</aside>
+			<nav class="center"><!-- indica que el contenido va a hacer navegable -->
+				<a href="index.html">Inicio</a>
+				<a href="tablas.html">Tablas</a>					
+				<a href="form.html">Form</a>	 
+			</nav> 
+		</header>
+		<main>
+			<pre>
+				Suponiendo que tengo una lista de usuarios
+				[{name: 'juan'},{name: 'maria'},{name: 'adela'}];
+				Crear una lista html con estos nombres.
+			</pre>
+			<ul id="mi-lista">
+				
+			</ul>
+		</main>
+		<footer>
+			Ejemplo de listas.
+		</footer>
+		<script type="text/javascript">
+			var listaUsuarios = [
+				{name: 'juan', age: 73},
+				{name: 'maria', age: 23},
+				{name: 'mathias', age: 13},
+				{name: 'mariano', age: 21},
+				{name: 'mariana', age: 19},
+				{name: 'adela', age: 32},
+				{name: 'andres', age: 53}
+			];
+			var listHTML = document.getElementById('mi-lista');
+
+			listaUsuarios.forEach(function(usuario){
+				var liElement = document.createElement('li');
+				liElement.innerHTML += '<div>' + usuario.name + '</div>';
+				liElement.innerHTML += '<span>' + usuario.age +  '</span>';
+				listHTML.append(liElement);
+			});
+		</script>
+	</body>
+</html>

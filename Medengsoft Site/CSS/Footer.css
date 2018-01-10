@@ -1,0 +1,293 @@
+/*Footer*/
+/*footer{
+	position: absolute;
+}; CRASH EVEREYTHING! :´v*/
+@media (max-width: 499px){
+	/*Footer Start*/
+	footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		bottom: 0;
+		margin-top: 10px;
+		border-top: 2px solid #383838;
+		background: rgba(96, 93, 84, 1);
+		width: 100%;
+		height: 244px;
+		color: #0B54BB;
+	}
+	/*Footer End*/
+	/*Information div Start*/
+	div#information{
+		width: 100%;
+		height: 60%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	ul.threecols{
+		width: 100%;
+		height: 80%;
+		display: flex;
+		text-align: center;
+		align-items: flex-start;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	/*Information div End*/
+	/*Follow div Start*/
+	div#follow_us{
+		width: 100%;
+		height: 35%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		justify-content: center;
+	}
+	div#follow_us div{		
+		width: 100%;
+		height: 30%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+	}
+	div#follow_us ul{		
+		width: 100%;
+		height: 30%;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	div#follow_us ul li{
+		float: left;
+		margin: 0px 10px;
+	}
+	/*Follow div End*/
+}
+
+@media (min-width: 500px) and (max-width: 799px){
+	/*Footer Start*/
+	footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		bottom: 0;
+		margin-top: 10px;
+		border-top: 2px solid #383838;
+		background: rgba(96, 93, 84, 1);
+		width: 100%;
+		height: 238px;
+		color: #0B54BB;
+	}
+	/*Footer End*/
+	/*Information div Start*/
+	div#information{
+		width: 100%;
+		height: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	ul.threecols{
+		width: 100%;
+		height: 80%;
+		display: flex;
+		text-align: center;
+		align-items: flex-start;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	div#information ul.threecols li ul li{
+		margin: 2px auto;
+	}
+	/*Information div End*/
+	/*Follow div Start*/
+	div#follow_us{
+		width: 100%;
+		height: 50%;
+	}
+	div#follow_us div{		
+		width: 100%;
+		height: 30%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+	}
+	div#follow_us ul{		
+		width: 100%;
+		height: 30%;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	div#follow_us ul li{
+		float: left;
+		margin: 0px 10px;
+	}
+	/*Follow div End*/
+}
+
+@media (min-width: 800px) and (max-width: 1199px){
+	/*Footer Start*/
+	footer{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		bottom: 0;
+		margin-top: 10px;
+		border-top: 2px solid #383838;
+		background: rgba(96, 93, 84, 1);
+		width: 100%;
+		height: 238px;
+		color: #0B54BB;
+	}
+	/*Footer End*/
+	/*Information div Start*/
+	div#information{
+		width: 70%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	ul.threecols{
+		width: 100%;
+		height: 50%;
+		display: flex;
+		text-align: center;
+		align-items: flex-start;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	div#information ul.threecols li ul li{
+		margin: 10px auto;
+	}
+	/*Information div End*/
+	/*Follow div Start*/
+	div#follow_us{
+		width: 30%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+	}
+	div#follow_us div{		
+		width: 100%;
+		height: 30%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+	}
+	div#follow_us ul{		
+		width: 100%;
+		height: 30%;
+		display: flex;
+		text-align: center;
+		align-items: flex-start;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	/*Follow div End*/
+}
+
+@media (min-width: 1200px){
+	/*Footer Start*/
+	footer{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		bottom: 0;
+		margin-top: 10px;
+		border-top: 2px solid #383838;
+		background: rgba(96, 93, 84, 1);
+		width: 100%;
+		height: 238px;
+		color: #0B54BB;
+	}
+	/*Footer End*/
+	/*Information div Start*/
+	div#information{
+		width: 70%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	ul.threecols{
+		width: 100%;
+		height: 50%;
+		display: flex;
+		text-align: center;
+		align-items: flex-start;
+		flex-direction: row;
+		justify-content: space-around;
+		color: #0B54BB;
+	}
+	div#information ul.threecols li ul li{
+		margin: 10px auto;
+	}
+	/*Information div End*/
+	/*Follow div Start*/
+	div#follow_us{
+		width: 30%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+	}
+	div#follow_us div{		
+		width: 100%;
+		height: 30%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+	}
+	div#follow_us ul{		
+		width: 100%;
+		height: 30%;
+		display: flex;
+		text-align: center;
+		align-items: flex-start;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	/*Follow div End*/
+}
+
+footer a{		
+	color: #0B54BB;
+	transition: 0.6s;
+}
+footer a:hover{
+	animation: heartglow 2s infinite;
+}
+.icon{
+	color: #898989;
+}
+.icon:hover{	
+	animation: none;
+}
+.YT:hover{
+	color: #ff0000;
+}
+.FB:hover{
+	color: #4267b2;
+}
+.T0:hover{
+	color: #1da1f2;
+}
+.T1:hover{
+	color: #4b367c;
+}

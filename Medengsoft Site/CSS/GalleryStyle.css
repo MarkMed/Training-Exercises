@@ -1,0 +1,535 @@
+@media (max-width: 499px){
+	main{
+		margin: 20px auto 20px;
+		height: 650px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column-reverse;
+	}
+	/*Options*/
+	section#option_gallery{
+		width: 100%;
+		height: 30%;
+		background: rgba(239, 238, 228, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 30px 30px 0% 0%;
+	}
+	section#option_gallery h2{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	section#option_gallery ul#years{
+		width: 100%;
+		height: 90%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	section#option_gallery ul#years li.year{
+		width: 200px;
+		height: 160px;
+		text-align: center;
+		margin: auto 20px;
+	}
+	ul#years li.year h4{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	section#option_gallery ul#years li.year ul{
+		width: 100%;
+		height: 90%;	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	section#option_gallery ul#years li.year ul li{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	li a{
+		color: #0B54BB;
+	}
+	/*Viewer*/
+	section#viewer_sect{
+		width: 100%;
+		height: 68%;		
+		background: rgba(56, 53, 44, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 50px 0px 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		overflow: hidden;
+	}
+	div#info_file{
+		width: 255px;
+		flex-wrap: wrap;
+		height: 30%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-around;
+		padding: 7%;
+		background: linear-gradient(rgba(26, 23, 14, 1), rgba(0, 0, 0, 0));
+		position: absolute;
+		color: #EFEEDA;
+		z-index: 10;
+		border-radius: 50px 50px 0px 0px;
+		opacity: 0;
+		transition: 1s;
+	}
+	div#info_file:hover{
+		opacity: 1;
+	}
+	div#file_viewer{
+		width: 100%;
+		height: 70%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+	div#file_viewer img{
+		height: 80%;
+	}
+	/*Viewer Nav*/
+	/*Add checkbox for make a Tab effect*/
+	div#file_nav{
+		width: 100%;
+		height: 30%;
+		border-top: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 20px 20px 0px 0px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+	}
+	div#file_nav img{
+		height: 80px;
+		margin: auto 20px;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 799px){
+	main{
+		margin: 20px auto 20px;
+		height: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	/*Options*/
+	section#option_gallery{
+		width: 30%;
+		height: 100%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		background: rgba(239, 238, 228, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 30px 0% 0% 30px;
+	}
+	section#option_gallery h2{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	section#option_gallery ul#years{
+		width: 100%;
+		height: 280%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	section#option_gallery ul#years li.year{
+		width: 100%;
+		height: 20%;
+		text-align: center;
+		margin: 20px auto;
+	}
+	ul#years li.year h4{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	section#option_gallery ul#years li.year ul{
+		width: 100%;
+		height: 90%;	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	section#option_gallery ul#years li.year ul li{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	li a{
+		color: #0B54BB;
+	}
+	/*Viewer*/
+	section#viewer_sect{
+		width: 68%;
+		height: 100%;		
+		background: rgba(56, 53, 44, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 50px 0px 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		overflow: hidden;
+	}
+	div#info_file{
+		width: 310px;
+		height: 30%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-around;
+		padding: 3%;
+		flex-wrap: wrap;
+		background: linear-gradient(rgba(26, 23, 14, 1), rgba(0, 0, 0, 0));
+		position: absolute;
+		color: #EFEEDA;
+		z-index: 10;
+		border-radius: 50px 50px 0px 0px;
+		opacity: 0;
+		transition: 1s;
+	}
+	div#info_file:hover{
+		opacity: 1;
+	}
+	div#file_viewer{
+		width: 100%;
+		height: 70%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+	div#file_viewer img{
+		height: 90%;
+	}
+	/*Viewer Nav*/
+	/*Add checkbox for make a Tab effect*/
+	div#file_nav{
+		width: 100%;
+		height: 30%;
+		border-top: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 20px 20px 0px 0px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+	}
+	div#file_nav img{
+		height: 80px;
+		margin: auto 20px;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1199px){
+	main{
+		margin: 30px auto 20px;
+		height: 560px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	/*Options*/
+	section#option_gallery{
+		width: 30%;
+		height: 100%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		background: rgba(239, 238, 228, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 0% 0% 50px;
+	}
+	section#option_gallery h2{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	section#option_gallery ul#years{
+		width: 100%;
+		height: 280%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	section#option_gallery ul#years li.year{
+		width: 100%;
+		height: 20%;
+		text-align: center;
+		margin: 20px auto;
+	}
+	ul#years li.year h4{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	section#option_gallery ul#years li.year ul{
+		width: 100%;
+		height: 90%;	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	section#option_gallery ul#years li.year ul li{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	li a{
+		color: #0B54BB;
+	}
+	/*Viewer*/
+	section#viewer_sect{
+		width: 68%;
+		height: 100%;		
+		background: rgba(56, 53, 44, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 50px 0px 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		overflow: hidden;
+	}
+	div#info_file{
+		width: 495px;
+		height: 30%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-around;
+		padding: 3%;
+		background: linear-gradient(rgba(26, 23, 14, 1), rgba(0, 0, 0, 0));
+		position: absolute;
+		color: #EFEEDA;
+		z-index: 10;
+		border-radius: 50px 50px 0px 0px;
+		opacity: 0;
+		transition: 1s;
+	}
+	div#info_file:hover{
+		opacity: 1;
+	}
+	div#file_viewer{
+		width: 100%;
+		height: 75%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+	div#file_viewer img{
+		height: 90%;
+	}
+	/*Viewer Nav*/
+	/*Add checkbox for make a Tab effect*/
+	div#file_nav{
+		width: 100%;
+		height: 25%;
+		border-top: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 20px 20px 0px 0px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+	}
+	div#file_nav img{
+		height: 103px;
+		margin: auto 20px;
+	}
+}
+
+@media (min-width: 1200px){
+	main{
+		margin: 30px auto 20px;
+		height: 560px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	/*Options*/
+	section#option_gallery{
+		width: 30%;
+		height: 100%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		background: rgba(239, 238, 228, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 0% 0% 50px;
+	}
+	section#option_gallery h2{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	section#option_gallery ul#years{
+		width: 100%;
+		height: 280%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	section#option_gallery ul#years li.year{
+		width: 100%;
+		height: 20%;
+		text-align: center;
+		margin: 20px auto;
+	}
+	ul#years li.year h4{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	section#option_gallery ul#years li.year ul{
+		width: 100%;
+		height: 90%;	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	section#option_gallery ul#years li.year ul li{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	li a{
+		color: #0B54BB;
+	}
+	/*Viewer*/
+	section#viewer_sect{
+		width: 68%;
+		height: 100%;		
+		background: rgba(56, 53, 44, 0.7);
+		border: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 50px 50px 0px 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		overflow: hidden;
+	}
+	div#info_file{
+		width: 742px;
+		height: 30%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-around;
+		padding: 3%;
+		background: linear-gradient(rgba(26, 23, 14, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+		position: absolute;
+		color: #EFEEDA;
+		z-index: 10;
+		border-radius: 50px 50px 0px 0px;
+		opacity: 0;
+		transition: 1s;
+	}
+	div#info_file:hover{
+		opacity: 1;
+	}
+	div#file_viewer{
+		width: 100%;
+		height: 75%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+	div#file_viewer img{
+		height: 100%;
+	}
+	/*Viewer Nav*/
+	/*Add checkbox for make a Tab effect*/
+	div#file_nav{
+		width: 100%;
+		height: 25%;
+		border-top: 2px groove rgba(255, 185, 11, 1);
+		border-radius: 20px 20px 0px 0px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+	}
+	div#file_nav img{
+		height: 103px;
+		margin: auto 20px;
+	}
+}
+div#file_nav img{
+	transition: 0.2s;
+}
+div#file_nav img:hover{
+	box-shadow: 0px 0px 5px 2px rgba(14, 255, 249, 1);
+}
+ul li a{
+	cursor: pointer;
+}
+div#file_viewer img#imageLine{
+	transition: 1s;
+}
+.showing0{
+	opacity: 0;
+}
+.showing1{
+	opacity: 1;
+}

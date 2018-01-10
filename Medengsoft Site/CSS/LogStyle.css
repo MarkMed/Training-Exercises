@@ -1,0 +1,842 @@
+@media (max-width: 499px){
+	main{
+		margin: auto;
+		height: 1800px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column-reverse;
+	}
+	/*Account Manage Start*/
+	section{
+		width: 100%;
+		height: 1200px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		margin-top: 100px;
+	}
+	div#acc_log{
+		width: 100%;
+		height: 20%;
+		border-bottom: 2px solid #605D54;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#acc_log div{
+		display: flex;
+		justify-content: space-around;
+		align-content: center;
+		flex-wrap: wrap;
+	}
+	div#acc_log input{
+		width: 250px;
+		height: 50px;
+		border-bottom: 2px solid #605D54;
+		transition: 1s;
+	}
+	div#acc_log input:focus{
+		border-bottom: 2px solid #0EFFF9;
+		background: rgba(239, 238, 218, 0.6);
+		color: rgba(11, 84, 187, 1);		
+	}
+	div#acc_regis{
+		width: 100%;
+		height: 75%;
+		border-bottom: 2px solid #605D54;
+	}
+	div#acc_regis form{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#div_labels{
+		width: 45%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#div_inputs{
+		width: 45%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#div_inputs div{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	button{
+		width: 80px;
+		height: 40px;
+		background: #EFEEDA;
+	}
+	button:active{
+		background: #DFDEDA;
+		box-shadow: 0px 0px 5px #0EFFF9;
+	}
+	div#acc_regis button{
+		width: 180px;
+		height: 80px;
+		font-size: 17px;
+	}
+	input.input_error{
+		width: 140px;
+		height: 30px;
+		border-bottom: 2px solid #FF0E0E;
+		transition: 1s;
+	}
+	input.input_style{
+		width: 140px;
+		height: 30px;
+		border-bottom: 2px solid #605D54;
+		transition: 1s;
+	}
+	input.input_style:focus{
+		border-bottom: 2px solid #0EFFF9;
+		background: rgba(239, 238, 218, 0.6);
+		color: rgba(11, 84, 187, 1);
+	}
+	/*Account Manage End*/
+	/*Account info Start*/
+	div#acc_info{
+		width: 300px;
+		height: 600px;
+		overflow-y: scroll;		
+		background-image: url("../Resources/Img/unknow.png");
+		background-size: 100% 100%;
+	}
+	div#acc_info h2{
+		width: 100%;
+		height: 30px;
+		margin: 20px auto;
+		text-align: center;
+		display: block;
+	}
+	div#acc_info p{
+		width: 100%;
+		height: 240px;
+		margin: 20px auto;
+		text-align: center;
+		display: block;
+	}
+	/*Account info End*/
+	div#modal_content{
+		flex-direction: column;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 300px;
+		z-index: 90;
+		height: 70%;
+		background: rgba(226, 223, 214, 1);
+		transition: 1s;
+	}
+	div#welcm{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;		
+		flex-direction: row;
+	}
+	div#welcm h2{
+		font-size: 17px;
+		width: 55%;
+	}
+	div#welcm p{
+		font-size: 13px;
+		margin-left: 3%;
+		width: 45%;
+	}
+	div#Info_content{
+		width: 100%;
+		height: 90%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;		
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	div.Divnfo{
+		width: 95%;
+		height: 14%;
+		border: 2px solid #737373;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 1em;
+		transition: 0.3s;
+	}
+	div.Divnfo:hover{
+		box-shadow: 0px 2px 5px #7C7C7C;
+	}
+	.btn{
+		margin: 10px;
+		background: rgba(96, 93, 84, 1);
+		border: 4px groove #FFB90B;
+		box-shadow: 0px 10px 5px #363D34;
+		color: rgba(229, 228, 218, 1);
+		font-size: 20px;
+		font-family: Cinzel;
+		cursor: pointer;
+		transform: translateY(-20%);
+		transition: 1s;
+	}
+	button#closer{
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		top: 10px;
+		right: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 799px){
+	main{
+		margin: 30px auto;
+		height: 600px;
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+	/*Account Manage Start*/
+	section{
+		width: 65%;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	div#acc_log{
+		width: 100%;
+		height: 20%;
+		border-bottom: 2px solid #605D54;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#acc_log input{
+		width: 180px;
+		height: 15px;
+		border-bottom: 2px solid #605D54;
+		transition: 1s;
+	}
+	div#acc_log input:focus{
+		border-bottom: 2px solid #0EFFF9;
+		background: rgba(239, 238, 218, 0.6);
+		color: rgba(11, 84, 187, 1);		
+	}
+	div#acc_regis{
+		width: 100%;
+		height: 75%;
+		border-bottom: 2px solid #605D54;
+	}
+	div#acc_regis form{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#div_labels{
+		width: 45%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#div_inputs{
+		width: 45%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#div_inputs div{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	button{
+		width: 80px;
+		height: 40px;
+		background: #EFEEDA;
+	}
+	button:active{
+		background: #DFDEDA;
+		box-shadow: 0px 0px 5px #0EFFF9;
+	}
+	input.input_error{
+		width: 140px;
+		height: 30px;
+		border-bottom: 2px solid #FF0E0E;
+		transition: 1s;
+	}
+	input.input_style{
+		width: 140px;
+		height: 30px;
+		border-bottom: 2px solid #605D54;
+		transition: 1s;
+	}
+	input.input_style:focus{
+		border-bottom: 2px solid #0EFFF9;
+		background: rgba(239, 238, 218, 0.6);
+		color: rgba(11, 84, 187, 1);
+	}
+	/*Account Manage End*/
+	/*Account info Start*/
+	div#acc_info{
+		width: 150px;
+		height: 300px;
+		overflow-y: scroll;
+		background-image: url("../Resources/Img/unknow.png");
+		background-size: 100% 100%;
+	}
+	div#acc_info h2{
+		width: 100%;
+		height: 30px;
+		margin: 20px auto;
+		text-align: center;
+		display: block;
+	}
+	div#acc_info p{
+		width: 100%;
+		height: 440px;
+		margin: 20px auto;
+		text-align: center;
+		display: block;
+	}
+	/*Account info End*/
+	div#modal_content{
+		flex-direction: column;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 400px;
+		z-index: 90;
+		height: 60%;
+		background: rgba(226, 223, 214, 1);
+		transition: 1s;
+	}
+	div#welcm{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;		
+		flex-direction: row;
+	}
+	div#welcm h2{
+		font-size: 17px;
+	}
+	div#welcm p{
+		font-size: 13px;
+		margin-left: 3%
+	}
+	div#Info_content{
+		width: 100%;
+		height: 90%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;		
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	div.Divnfo{
+		width: 47%;
+		height: 30%;
+		border: 2px solid #737373;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 1em;
+		transition: 0.3s;
+	}
+	div.Divnfo:hover{
+		box-shadow: 0px 2px 5px #7C7C7C;
+	}
+	.btn{
+		margin: 10px;
+		background: rgba(96, 93, 84, 1);
+		border: 4px groove #FFB90B;
+		box-shadow: 0px 10px 5px #363D34;
+		color: rgba(229, 228, 218, 1);
+		font-size: 20px;
+		font-family: Cinzel;
+		cursor: pointer;
+		transform: translateY(-20%);
+		transition: 1s;
+	}
+	button#closer{
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		top: 50px;
+		right: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1199px){
+	main{
+		margin: 30px auto;
+		height: 400px;
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+	/*Account Manage Start*/
+	section{
+		width: 65%;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	div#acc_log{
+		width: 100%;
+		height: 20%;
+		border-bottom: 2px solid #605D54;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#acc_log input{
+		width: 120px;
+		height: 20px;
+		border-bottom: 2px solid #605D54;
+		transition: 1s;
+	}
+	div#acc_log input:focus{
+		border-bottom: 2px solid #0EFFF9;
+		background: rgba(239, 238, 218, 0.6);
+		color: rgba(11, 84, 187, 1);		
+	}
+	div#acc_regis{
+		width: 100%;
+		height: 75%;
+		border-bottom: 2px solid #605D54;
+	}
+	div#acc_regis form{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#div_labels{
+		width: 45%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#div_inputs{
+		width: 45%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	button{
+		width: 80px;
+		height: 40px;
+		background: #EFEEDA;
+	}
+	button:active{
+		background: #DFDEDA;
+		box-shadow: 0px 0px 5px #0EFFF9;
+	}
+	input.input_error{
+		width: 220px;
+		height: 30px;
+		border-bottom: 2px solid #FF0E0E;
+		transition: 1s;
+	}
+	input.input_style{
+		width: 220px;
+		height: 30px;
+		border-bottom: 2px solid #605D54;
+		transition: 1s;
+	}
+	input.input_style:focus{
+		border-bottom: 2px solid #0EFFF9;
+		background: rgba(239, 238, 218, 0.6);
+		color: rgba(11, 84, 187, 1);
+	}
+	/*Account Manage End*/
+	/*Account info Start*/
+	div#acc_info{
+		width: 240px;
+		height: 400px;
+		overflow-y: scroll;
+		background-image: url("../Resources/Img/unknow.png");
+		background-size: 100% 100%;
+	}
+	div#acc_info h2{
+		width: 100%;
+		height: 30px;
+		margin: 20px auto;
+		text-align: center;
+		display: block;
+	}
+	div#acc_info p{
+		width: 100%;
+		height: 260px;
+		margin: 20px auto;
+		text-align: center;
+		display: block;
+	}
+	/*Account info End*/
+	div#modal_content{
+		flex-direction: column;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 600px;
+		z-index: 90;
+		height: 60%;
+		background: rgba(226, 223, 214, 1);
+		transition: 1s;
+	}
+	div#welcm{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;		
+		flex-direction: row;
+	}
+	div#welcm p{
+		margin-left: 3%;
+	}
+	div#Info_content{
+		width: 100%;
+		height: 90%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;		
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	div.Divnfo{
+		width: 47%;
+		height: 30%;
+		border: 2px solid #737373;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		font-size: 1.2em;
+		transition: 0.3s;
+	}
+	div.Divnfo:hover{
+		box-shadow: 0px 2px 5px #7C7C7C;
+	}
+	.btn{
+		margin: 10px;
+		background: rgba(96, 93, 84, 1);
+		border: 4px groove #FFB90B;
+		box-shadow: 0px 10px 5px #363D34;
+		color: rgba(229, 228, 218, 1);
+		font-size: 30px;
+		font-family: Cinzel;
+		cursor: pointer;
+		transform: translateY(-20%);
+		transition: 1s;
+	}
+	button#closer{
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		top: 50px;
+		right: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+	}
+}
+
+@media (min-width: 1200px){
+	main{
+		margin: 90px auto;
+		height: 500px;
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+	/*Account Manage Start*/
+	section{
+		width: 65%;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	div#acc_log{
+		width: 100%;
+		height: 20%;
+		border-bottom: 2px solid #605D54;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#acc_log input{
+		width: 120px;
+		height: 20px;
+		border-bottom: 2px solid #605D54;
+		transition: 1s;
+	}
+	div#acc_log input:focus{
+		border-bottom: 2px solid #0EFFF9;
+		background: rgba(239, 238, 218, 0.6);
+		color: rgba(11, 84, 187, 1);		
+	}
+	div#acc_regis{
+		width: 100%;
+		height: 75%;
+		border-bottom: 2px solid #605D54;
+	}
+	div#acc_regis form{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#div_labels{
+		width: 45%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	div#div_inputs{
+		width: 45%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	button{
+		width: 100px;
+		height: 50px;
+		background: #EFEEDA;
+	}
+	button:active{
+		background: #DFDEDA;
+		box-shadow: 0px 0px 5px #0EFFF9;
+	}
+	input.input_error{
+		width: 320px;
+		height: 30px;
+		border-bottom: 2px solid #FF0E0E;
+		transition: 1s;
+	}
+	input.input_style{
+		width: 320px;
+		height: 30px;
+		border-bottom: 2px solid #605D54;
+		transition: 1s;
+	}
+	input.input_style:focus{
+		border-bottom: 2px solid #0EFFF9;
+		background: rgba(239, 238, 218, 0.6);
+		color: rgba(11, 84, 187, 1);
+	}
+	/*Account Manage End*/
+	/*Account info Start*/
+	div#acc_info{
+		width: 356px;
+		height: 500px;
+		overflow-y: scroll;
+		background-image: url("../Resources/Img/unknow.png");
+		background-size: 100% 100%;
+	}
+	div#acc_info h2{
+		width: 100%;
+		height: 10%;
+		margin: 20px auto;
+		text-align: center;
+		position: relative;
+	}
+	div#acc_info p{
+		width: 100%;
+		height: 40%;
+		margin: 20px auto;
+		text-align: center;
+		position: relative;
+	}
+	/*Account info End*/
+	div#modal_content{
+		flex-direction: column;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 1000px;
+		z-index: 90;
+		height: 70%;
+		background: rgba(226, 223, 214, 1);
+		transition: 1s;
+	}
+	div#welcm{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;		
+		flex-direction: row;
+	}
+	div#welcm p{
+		margin-left: 3%;
+	}
+	div#Info_content{
+		width: 100%;
+		height: 90%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;		
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	div.Divnfo{
+		width: 47%;
+		height: 30%;
+		border: 2px solid #737373;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		font-size: 1.4em;
+		transition: 0.3s;
+	}
+	div.Divnfo:hover{
+		box-shadow: 0px 2px 5px #7C7C7C;
+	}
+	.btn{
+		margin: 10px;
+		background: rgba(96, 93, 84, 1);
+		border: 4px groove #FFB90B;
+		box-shadow: 0px 10px 5px #363D34;
+		color: rgba(229, 228, 218, 1);
+		font-size: 30px;
+		font-family: Cinzel;
+		cursor: pointer;
+		transform: translateY(-20%);
+		transition: 1s;
+	}
+	button#closer{
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		top: 50px;
+		right: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+	}
+}
+/*Modal (responsive design)*/
+.showing0{
+	height: 0%;
+	transform: translateY(-10%);
+}
+.showing1{
+	height: 100%;
+}
+.showing10{
+	opacity: 0;
+}
+.showing11{
+	opacity: 1;
+}
+section#modal{
+	width: 100%;
+	background: rgba(96, 93, 84, 0.7);
+	position: fixed;
+	z-index: 90;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	margin-top: 0;
+	transition: 1s;
+}
+div#modal_content{
+		border: 4px groove #FFB90B;
+}
+@keyframes sombreado{
+	0%{text-shadow: 0px 0px 0px #0EFFF9;}
+	5%{text-shadow: 0px 0px 1px #0EFFF9;}
+	10%{text-shadow: 0px 0px 2px #0EFFF9;}
+	15%{text-shadow: 0px 0px 3px #0EFFF9;}
+	20%{text-shadow: 0px 0px 4px #0EFFF9;}
+	25%{text-shadow: 0px 0px 5px #0EFFF9;}
+	30%{text-shadow: 0px 0px 6px #0EFFF9;}
+	35%{text-shadow: 0px 0px 7px #0EFFF9;}
+	40%{text-shadow: 0px 0px 8px #0EFFF9;}
+	45%{text-shadow: 0px 0px 9px #0EFFF9;}
+	50%{text-shadow: 0px 0px 10px #0EFFF9;}
+	55%{text-shadow: 0px 0px 9px #0EFFF9;}
+	60%{text-shadow: 0px 0px 8px #0EFFF9;}
+	65%{text-shadow: 0px 0px 7px #0EFFF9;}
+	70%{text-shadow: 0px 0px 6px #0EFFF9;}
+	75%{text-shadow: 0px 0px 5px #0EFFF9;}
+	80%{text-shadow: 0px 0px 4px #0EFFF9;}
+	85%{text-shadow: 0px 0px 3px #0EFFF9;}
+	90%{text-shadow: 0px 0px 2px #0EFFF9;}
+	95%{text-shadow: 0px 0px 1px #0EFFF9;}
+	100%{text-shadow: 0px 0px 0px #0EFFF9;}
+}
+.btn:focus{
+	outline: none;
+}
+.btn:hover{
+	animation: sombreado 1s infinite;
+}
+.btn:active{
+	transform: translateY(0%);
+	box-shadow: none;
+	transition: 0.01s;
+	box-shadow: 0px 0px 5px #0EFFF9;
+}
+button{
+	cursor: pointer;
+}

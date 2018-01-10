@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario</title>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	</head>
+	<body>
+		<section id="sect_formu" class="sections_ppl">
+			<form id="formu">
+				<div id="div_name" class="divnput">
+					<label for="name" class="label">Name:</label>
+					<input id="name" class="input_deco" type="text" name="nombre"/>
+				</div>
+				<div id="divlastname" class="divnput">
+					<label for="surname" class="label">Last Name:</label>
+					<input id="surname" class="input_deco" type="text" name="surnombre"/>
+				</div>
+				<div id="div_Bdate" class="divnput">
+					<label for="Bdate" class="label">Birth Date:</label>
+					<input id="Bdate" class="input_deco" type="date" name="Bdate"/>
+				</div>
+				<div id="div_NId" class="divnput">
+					<label for="CI" class="label">Number Id.:</label>
+					<input id="CI" class="input_deco" type="number" name="CI"/>
+				</div>
+				<div id="div_country" class="divnput">
+					<label for="country" class="label">Country:</label>
+					<select id="country" class="input_deco">
+						<option value="">*No selected*</option>
+						<option value="American">USA</option>
+						<option value="Germanian">Germany</option>
+						<option value="Japanese">Japan</option>
+						<option value="Chinese">China</option>
+						<option value="English">England</option>
+						<option value="Canadian">Canada</option>
+						<option value="Frech">France</option>
+						<option value="Italian">Italy</option>
+						<option value="Spanish">Spain</option>
+					</select>
+				</div>
+				<div id="div_SX" class="divnput">
+					<div class="SXdiv">
+						<label for="SX_FM" class="SXlabl">Female</label>
+						<div class="SXinput">
+							<input id="SX_FM" type="radio" name="SX"/>
+						</div>
+					</div>
+					<div class="SXdiv">
+						<label for="SX_M" class="SXlabl">Male</label>
+						<div class="SXinput">
+							<input id="SX_M" type="radio" name="SX"/>
+						</div>
+					</div>
+				</div>
+			</form>
+			<div id="div_buttons">
+				<button id="bender" class="btn">Send</button>
+				<button id="reseter" class="btn">Reset</button>
+				<!Save us in the JS plz :´v >
+			</div>
+		</section>
+		<section id="Obj_viewer" class="Nshowing">
+			<div id="container">
+				<div id="secc_NId" class="title">
+					<p class="secc_title">Number Identificator:</p>
+					<p id="value_NId" class="value_para"></p>
+				</div>
+				<div id="secc_name" class="title">
+					<p class="secc_title">Name:</p>
+					<p id="value_name" class="value_para"></p>
+				</div>
+				<div id="secc_lastname" class="title">
+					<p class="secc_title">Lastname:</p>
+					<p id="value_lastname" class="value_para"></p>
+				</div>
+				<div id="secc_Age" class="title">
+					<p class="secc_title">Age:</p>
+					<p id="value_Age" class="value_para"></p>
+				</div>
+				<div id="secc_sx" class="title">
+					<p class="secc_title">Gender:</p>
+					<p id="value_sx" class="value_para"></p>
+				</div>
+				<div id="secc_country" class="title">
+					<p class="secc_title">Nationality:</p>
+					<p id="value_country" class="value_para"></p>
+				</div>
+			</div>
+			<button id="closer" class="btn">X</button>
+		</section>
+		<section id="sect_ducha" class="sections_ppl">
+			<table id="table_ducha">
+				<thead id="tbl_H">
+					<tr>
+						<th>N° Id</th>
+						<th>Name</th>
+						<th>Age</th>
+						<th>Nationality</th>
+					</tr>
+				</thead>
+				<tbody id="tbl_B">
+				</tbody>
+			</table>
+		</section>
+		<section id="error_notif">
+			<div id="error_sect">				
+				<div id="error_name" class="error_hover error_div">Invalid Name</div>
+				<div id="error_lastname" class="error_hover error_div">Invalid Surname</div>
+				<div id="error_Bdate" class="error_hover error_div">Invalid Birdth Day</div>
+				<div id="error_NId" class="error_hover error_div">Invalid Number</div>
+				<div id="error_country" class="error_hover error_div">Select a country</div>
+				<div id="error_sx" class="error_hover error_div">Select your gender</div>
+			</div>
+		</section>
+		<section id="error_explan">
+			<div id="error_explan_sect">				
+				<div id="error_name_explan" class="error_hover error_explan_div">You must type your real name. More of one character.</div>
+				<div id="error_lastname_explan" class="error_hover error_explan_div">You must type your real lastname. More of two character.</div>
+				<div id="error_Bdate_explan" class="error_hover error_explan_div">Set when you born. You must be 10 year old or older.</div>
+				<div id="error_NId_explan" class="error_hover error_explan_div">Type your number Id (All Id Series are eight numbers)</div>
+				<div id="error_country_explan" class="error_hover error_explan_div">Select the country where your born.</div>
+				<div id="error_sx_explan" class="error_hover error_explan_div">All species has only two gender. Select the gender that you had when you born.</div>
+			</div>
+		</section>
+		<section id="notification">
+			<div id="notification_exclam" class="NTrigerred">!</div>
+			<div id="notification_area">
+				<p id="paragraph" class="Ncolored">This is the notification area. Here you can read the events messages.<br/>Stay sharp!</p>
+			</div>
+		</section>
+		<script type="text/javascript" src="JS/script.js"></script>
+	</body>
+</html>

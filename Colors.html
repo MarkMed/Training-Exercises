@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Favorites Colors</title>
+		<style type="text/css">
+			body{
+				height: 90%;
+				background: rgba(76, 73, 64, 1);
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				align-items: center;
+				color: rgba(240, 240, 230, 1);
+				transition: 5s;
+			}
+			section{
+				width: 90%;
+				height: 20%;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+			}
+			div.color{
+				width: 200px;
+				height: 200px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				color: rgb(20, 30, 30);
+				transition: 1s;
+			}
+			div.color:hover{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 22px;
+				transform: translateY(-20px);
+				box-shadow: 0px 20px 10px #0EFFF9;
+			}
+			#div1{
+				background: #605D54;
+			}
+			#div2{
+				background: #EFEEDA;
+			}
+			#div3{
+				background: #E5E4DA;
+			}
+			#div4{
+				background: #FFB90B;
+			}
+			#div5{
+				background: #0B54BB;
+			}
+			#div6{
+				background: #0EFFF9;
+			}
+			div#explanation{
+				width: 90%;
+				background: rgba(210, 210, 200, 1);
+				padding: 10px;
+				border: 4px groove rgba(255, 185, 11, 1);
+				color: rgba(11, 84, 187, 1);
+				border-radius: 12px;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				box-shadow: 0px 2px 10px rgba(14, 255, 249, 1);
+			}
+		</style>
+	</head>
+	<body>
+		<h1>My Prime Colors.</h1>
+		<section>
+			<div class="color" id="div1"><p>#605D54</p><p>rgba(96, 93, 84, 1)</p></div>
+			<div class="color" id="div2"><p>#EFEEDA</p><p>rgba(239, 238, 218, 1)</p></div>
+			<div class="color" id="div3"><p>#E5E4DA</p><p>rgba(229, 228, 218, 1)</p></div>
+			<div class="color" id="div4"><p>#FFB90B</p><p>rgba(255, 185, 11, 1)</p></div>
+			<div class="color" id="div5"><p>#0B54BB</p><p>rgba(11, 84, 187, 1)</p></div>		
+			<div class="color" id="div6"><p>#0EFFF9</p><p>rgba(14, 255, 249, 1)</p></div>
+		</section>
+		<h2>Mi paleta de colores.</h2>
+		<div id="explanation">
+			<span style="color: rgb(20, 30, 30);">Elejí ésta paleta porque, además de que me gusta, justo transmiten lo que quiero!</span> 
+			<br/><span style="color: #605D54;">#605D54: Queriendo transimitir formalidad, elegancia, y profesionalismo quería usar una tonalidad más oscura, pero no quería usar el gastado negro, además mucho negro arruia. Terminé usando este gris que trasnmite varias cosas que quiero reflejar.</span>
+			<br/><span style="color: #EFEEDA;">#EFEEDA y #E5E4DA: Son parecidos al blanco, quiero que transmita pureza, sinceridad, algo verdadero. (Tengo cierta obsesión con La Verdad, lo que es verdadero...)</span>
+			<br/><span style="color: #FFB90B;">#FFB90B: No se puede representar bien el color del Oro. Me conformo con este y con el efecto groove de los bordes. El dorado es el color que trasnmite la idea lo valioso, de lujo, de superioridad, de victoria, de relevancia.</span>
+			<br/><span style="color: #0B54BB;">#0B54BB: Eficacia, calidad, calma, seriedad, y productividad. Me gusta, y me gusta lo que transmite. Lo usé en las letras y los detalles para que no de un aspecto de frío.</span>
+			<br/><span style="color: #0EFFF9;">#0EFFF9: El celeste transmite estabilidad, profesionalidad, confianza, inteligencia, verdad, fe, y lealtad. También agregaría la calma. Me gusta lo que transmite este clolor, me gusta el color, y lo uso poruqe no es muy usado. Me gusta innovar. Además, es un color brilloso, resalta. Es bueno para usarlo de sombras con las letras y/o con los elementos</span>
+		</div>
+	</body>
+	<script type="text/javascript">
+		alert("Los colores que uno elije... habla de cómo es uno?");
+	</script>
+</html>

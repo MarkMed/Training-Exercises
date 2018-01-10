@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body{
+	background-image: url("../Resources/Img/BckGnd.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: block;
+	color: #535353;
+}
+a{
+	text-decoration: none;
+	color: #535353;
+}
+li{
+	list-style-type: none;
+}
+input{
+	border: none;
+	background: none;
+}
+input:focus{
+	outline: none;
+}
+button{
+	border: none;
+	background: none
+}
+button:focus{
+	outline: none;
+}
+main{
+	background: rgba(239, 238, 228, 0.7);
+}
+@media (max-width: 499px){
+	main{
+		width: 300px;
+		height: 100%;
+		margin: 0 auto;
+		z-index: -99;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 799px){
+	main{
+		width: 500px;
+		height: 100%;
+		margin: 0 auto;
+		z-index: -99;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1199px){
+	main{
+		width: 800px;
+		height: 100%;
+		margin: 0 auto;
+		z-index: -99;
+	}
+}
+
+@media (min-width: 1200px){
+	main{
+		width: 1200px;
+		height: 100%;
+		margin: 0 auto;
+		z-index: -99;
+	}
+}
+@keyframes heartglow{
+	0%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.4);}
+	5%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.5);}
+	10%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.6);}
+	15%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.65);}
+	20%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.7);}
+	25%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.75);}
+	30%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.8);}
+	35%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.85);}
+	40%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.9);}
+	45%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.95);}
+	50%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 1);}
+	55%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.95);}
+	60%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.9);}
+	65%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.85);}
+	70%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.8);}
+	75%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.75);}
+	80%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.7);}
+	85%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.65);}
+	90%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.6);}
+	95%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.5);}
+	100%{text-shadow: 0px 0px 5px rgba(14, 255, 249, 0.4);}
+}
